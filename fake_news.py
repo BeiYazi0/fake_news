@@ -53,13 +53,3 @@ async def fake_create(bot, ev: CQEvent):
 		name_list.append(member_info["nickname"])
 	forward_msg = render_forward_msg(msg_list, uid_list, name_list)
 	await bot.send_group_forward_msg(group_id=groupid, messages=forward_msg)
-
-
-@sv.on_prefix('复读')
-async def fake_create(bot, ev: CQEvent):
-	msg = ev.message
-	groupid = ev.group_id
-	uid = ev.user_id
-	msg_list, uid_list, name_list = msg, [uid]*len(msg), ['测试']*len(msg)
-	forward_msg = render_forward_msg(msg_list, uid_list, name_list)
-	await bot.send_group_forward_msg(group_id=groupid, messages=forward_msg)
