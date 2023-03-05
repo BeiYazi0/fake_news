@@ -1,0 +1,44 @@
+{
+    "2416893937": {
+        "1": "[CQ:at,qq=2416893937] 部分标记消息发送失败",
+        "2": [
+            {
+                "type": "json",
+                "data": {
+                    "data": "{\"app\":\"com.tencent.together\",\"config\":{\"autosize\":0,\"ctime\":1678013772,\"forward\":0,\"token\":\"5a80296c9e256f1016749ce38002eba0\",\"type\":\"normal\"},\"desc\":\"\",\"extra\":{\"app_type\":1,\"appid\":101828071,\"uin\":2416893937},\"meta\":{\"invite\":{\"button\":\"加入一起看\",\"cover\":\"https://rpic.douyucdn.cn/live-cover/roomCove_coverUpdate_2023-03-05_2823268e97838306ed60fdcf32030f09.jpg/dy1\",\"extra\":{\"aio_media_id\":1678013772530,\"match_id\":\"douyu_288016\",\"sub_type\":2},\"summary\":\"JDG 1:1 OMG LPL春季赛\",\"title\":\"一起看\",\"type\":\"watch\"}},\"prompt\":\"[开启了一起看] JDG 1:1 OMG LPL春季赛\",\"ver\":\"0.0.0.1\",\"view\":\"invite\"}"
+                }
+            }
+        ],
+        "3": [
+            {
+                "type": "json",
+                "data": {
+                    "data": "{\"app\":\"com.tencent.together\",\"config\":{\"autosize\":0,\"ctime\":1678006641,\"forward\":0,\"token\":\"c16cf5ee6b40daa9a790ae99c8d8b739\",\"type\":\"normal\"},\"desc\":\"\",\"extra\":{\"app_type\":1,\"appid\":101831532,\"uin\":2416893937},\"meta\":{\"invite\":{\"button\":\"加入一起听歌\",\"cover\":\"http://img.tencentmusic.com/T002R500x500M000003clIzD4JrPuz.jpg\",\"extra\":{\"aio_media_id\":1678006641284,\"song_id\":\"001YsmGl0xejQm\"},\"summary\":\"嚣张-en\",\"title\":\"一起听歌\",\"type\":\"listen\"}},\"prompt\":\"[开启了一起听歌] 嚣张-en\",\"ver\":\"0.0.0.1\",\"view\":\"invite\"}"
+                }
+            }
+        ],
+        "4": [
+            {
+                "type": "text",
+                "data": {
+                    "text": "[[QQ小程序]哔哩哔哩]请使用最新版本手机QQ查看"
+                }
+            },
+            {
+                "type": "json",
+                "data": {
+                    "data": "{\"app\":\"com.tencent.miniapp_01\",\"desc\":\"哔哩哔哩\",\"bizsrc\":\"\",\"view\":\"view_8C8E89B49BE609866298ADDFF2DBABA4\",\"ver\":\"1.0.0.19\",\"prompt\":\"[QQ小程序]哔哩哔哩\",\"meta\":{\"detail_1\":{\"appType\":0,\"appid\":\"1109937557\",\"desc\":\"公主连结 六星姬塔展示\",\"gamePoints\":\"\",\"gamePointsUrl\":\"\",\"host\":{\"nick\":\"自由如风\",\"uin\":345308110},\"icon\":\"https:\\/\\/open.gtimg.cn\\/open\\/app_icon\\/00\\/95\\/17\\/76\\/100951776_100_m.png?t=1676449478\",\"preview\":\"pubminishare-30161.picsz.qpic.cn\\/bad0b7a4-a831-4c14-9f6a-86fcb709d6f2\",\"qqdocurl\":\"https:\\/\\/b23.tv\\/pQM9lUh?share_medium=android&share_source=qq&bbid=XYC4205C3BB7F77AF4532220DB3226F1908F5&ts=1677893799904\",\"scene\":1036,\"shareTemplateData\":{},\"shareTemplateId\":\"8C8E89B49BE609866298ADDFF2DBABA4\",\"showLittleTail\":\"\",\"title\":\"哔哩哔哩\",\"url\":\"m.q.qq.com\\/a\\/s\\/3788532198cff55be3aa5924eb77e6b2\"}},\"config\":{\"autoSize\":0,\"ctime\":1677893817,\"forward\":1,\"height\":0,\"token\":\"f44248596fd572e27a930bbefbd45655\",\"type\":\"normal\",\"width\":0}}"
+                }
+            }
+        ],
+        "5": [
+            {
+                "type": "video",
+                "data": {
+                    "file": "e019f59cdb1b0977ad7bfdcdf4a73260.video",
+                    "url": "http://49.86.42.107:80/qqdownload?ver=537097188&rkey=3081fd0201010481f53081f20201010201000204cc24070b0481a63330353130323031303030343336333033343032303130303032303439303065646666313032303337613164623930323034386365363363623730323034363430343536323330343130653031396635396364623162303937376164376266646364663461373332363030323033376131336635303230313030303431343030303030303038363636393663363537343739373036353030303030303034333133303330333302046404562404350000000866696c657479706500000004313030330000000b646f776e656e63727970740000000130000000047175696300000001300400&filetype=1003&videotype=1&subvideotype=0&term=unknow"
+                }
+            }
+        ]
+    }
+}
