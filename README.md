@@ -3,7 +3,7 @@
 基于HoshinoBot v2的伪造群聊消息插件
 
 ## 安装方法
-| --- | --- | --- | --- |
+
 1. 在HoshinoBot的插件目录modules下clone本项目 `git clone https://github.com/BeiYazi0/fake_news`
 2. 在 `config/__bot__.py`的模块列表里加入 `draw-card`
 3. 重启HoshinoBot
