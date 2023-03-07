@@ -38,14 +38,13 @@ help_=f'''[伪造消息] +@xx+文字/图片/#标记xx
 
 def render_forward_msg(msg_list: list, uid_list: list, name_list: list):
     forward_msg = []
-    pattern = "\[CQ:forward,id=(.*?)\]"
     for i, msg in enumerate(msg_list):
         forward_msg.append({
             "type": "node",
             "data": {
-            "name": str(name_list[i]),
-            "uin": str(uid_list[i]),
-            "content": msg
+                "name": str(name_list[i]),
+                "uin": str(uid_list[i]),
+                "content": msg
             }
         })
     return forward_msg
