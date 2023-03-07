@@ -37,7 +37,7 @@ sv = Service(
 
 
 def render_forward_msg(msg_list: list, uid_list: list, name_list: list):
-	forward_msg = []
+    forward_msg = []
 	pattern = "\[CQ:forward,id=(.*?)\]"
 	for i, msg in enumerate(msg_list):
 		forward_msg.append({
@@ -90,7 +90,7 @@ async def fake_create(bot, ev: CQEvent):
 	msg_list = note_process(msg_list, str(uid))
 	forward_msg = render_forward_msg(msg_list, uid_list, name_list)
 	try:
-	    await bot.send_group_forward_msg(group_id=gid, messages=forward_msg)
+	    await bot.send_group_forward_msg(group_id=groupid, messages=forward_msg)
 	except:
 		await bot.send(ev, "部分消息发送失败", at_sender = True)
 
