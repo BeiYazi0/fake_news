@@ -83,7 +83,7 @@ async def fake_create(bot, ev: CQEvent):
 		uid_list.append(qq_id)
 		member_info = await bot.get_group_member_info(group_id=groupid,user_id=qq_id)
 		name_list.append(member_info["nickname"])
-		msg_list.append(match.group(2))
+		msg_list.append(match.group(2).strip())
 
 	if len(msg_list) == 0:
 		return
