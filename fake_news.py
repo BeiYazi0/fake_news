@@ -92,7 +92,7 @@ async def fake_create(bot, ev: CQEvent):
 	try:
 	    await bot.send_group_forward_msg(group_id=gid, messages=forward_msg)
 	except:
-		await bot.send(ev, "部分标记消息发送失败", at_sender = True)
+		await bot.send(ev, "部分消息发送失败", at_sender = True)
 
 
 @sv.on_prefix('测试标记消息')
